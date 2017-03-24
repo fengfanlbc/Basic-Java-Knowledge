@@ -3,6 +3,7 @@ package com.collection;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+//hello world ,we can do better
 public class Demo01 {
 
 	public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class Demo01 {
 //		}
 		Iterator it = list.iterator();
 		while(it.hasNext()){
-			//System.out.println(it.next());
+			System.out.println(it.next());
 			it.remove();
 		}
 		System.out.println("size:"+list.size());
